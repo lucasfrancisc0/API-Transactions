@@ -95,9 +95,6 @@ export async function transactionsRoutes(app: FastifyInstance) {
         session_id: sessionId,
     })
 
-    return reply.status(201).send({
-      status: 'sucessful',
-      message: 'Transaction created with sucess'
-    })
+    return reply.status(201).send()
   })
 }
