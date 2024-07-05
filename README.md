@@ -1,16 +1,22 @@
-# Requisitos da Aplicação:
+# API de Transações:
 
-## Requisitos Funcionais:
+## Visão Geral
+Esta aplicação permite que os usuários gerenciem suas transações financeiras. Os usuários podem criar novas transações, listar todas as transações, visualizar detalhes de uma transação específica e obter um resumo de sua conta.
 
-- [x] O usuário deve poder criar uma nova transação;
-- [x] O usuário deve poder obter um resumo da sua conta;
-- [x] O usuário deve poder listar todas as transações que já ocorreram;
-- [x] O usuário deve poder visualizar um transação única;
+## Tecnologias Utilizadas:
+- Node.js
+- Fastify
+- Knex
+- SQLite
+- TypeScript
 
-## Regras de Negócios:
+## Configuração e Instalação:
 
-- [x]  A transação deve ser do tipo crédito que somará ao valor total, ou dévito que subtrairá;
-- [x]  Deve ser possível indentificarmos o usuário entre as requisições;
-- [x]  O usuário só pode visualizar transações das quais ele criou;
+### Clone o Reposítório:
+Clone o repositório da aplicação para o seu ambiente local:
 
-## Requisitos não Funcionais:
+```
+  git clone <URL_DO_REPOSITORIO>
+  cd <NOME_DO_REPOSITORIO>
+```
+
